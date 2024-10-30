@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("8726992"))
+API_HASH = getenv("fbf4bc635f74937b9669af1d715171c9")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7845383477:AAHYzyEga5ppCJwFKRYogCWlBzMP3VmKYs4")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -19,10 +19,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 180))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("-1002490973872", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", None))
+OWNER_ID = int(getenv("7743411008", None))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -31,15 +31,15 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
-    "UPSTREAM_REPO", "https://github.com/AtulXD/SlayerX",
+    "UPSTREAM_REPO", "https://github.com/lazzyboybots/SlayerX",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SUDO_APT_UPDATE")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/NOxDISCUSSION")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Lazzy_Bots_Official")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Lazzy_Bots_Support")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
