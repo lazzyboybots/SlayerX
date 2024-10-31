@@ -26,28 +26,28 @@ OWNER_ID = int(getenv("7743411008"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("")
 # Get it from http://dashboard.heroku.com/account
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO", "https://github.com/lazzyboybots/SlayerX",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
-    "GIT_TOKEN"
+    ""
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Lazzy_Bots_Official")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Lazzy_Bots_Support")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("", False))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
-SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID")
-SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET")
+SPOTIFY_CLIENT_ID = getenv("")
+SPOTIFY_CLIENT_SECRET = getenv("")
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
@@ -62,10 +62,10 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
 STRING1 = getenv("BQCFKdAAUeGC7Mo8Jw7FcSYanIY92UyPl7fjS6yFCz-KEohqt5AjP-AQWkBbTNwOaCYeudgWTKwe1l8tJTiYhEaWF_krFZBCoCeC-dYpyhJBpfWwc7pBSoZfY9Lp1tpUFxCZEs0oJG2DD4HCKyr2cVjixG3tfD80DgpDj2KgrL5yGxk0-FwOSfi3sBVOa2y7QgkYhSlakVwmf64rLO8HwJkCc3rrAVcDYRIiGCqctcmVUAkJqsOCgzMVNihu7v1RJfHuYOyybdzP1627iRTTfVhf7zzRDFC08cVNgfn1S4YKLXEe_hv2o2CY1AAVst3XrMZ9xXUFvxVK-JsTHU4cIwWqz8Tn6wAAAAHNixNAAA")
-STRING2 = getenv("STRING_SESSION2")
-STRING3 = getenv("STRING_SESSION3")
-STRING4 = getenv("STRING_SESSION4")
-STRING5 = getenv("STRING_SESSION5")
+STRING2 = getenv("BQCFKdAAUeGC7Mo8Jw7FcSYanIY92UyPl7fjS6yFCz-KEohqt5AjP-AQWkBbTNwOaCYeudgWTKwe1l8tJTiYhEaWF_krFZBCoCeC-dYpyhJBpfWwc7pBSoZfY9Lp1tpUFxCZEs0oJG2DD4HCKyr2cVjixG3tfD80DgpDj2KgrL5yGxk0-FwOSfi3sBVOa2y7QgkYhSlakVwmf64rLO8HwJkCc3rrAVcDYRIiGCqctcmVUAkJqsOCgzMVNihu7v1RJfHuYOyybdzP1627iRTTfVhf7zzRDFC08cVNgfn1S4YKLXEe_hv2o2CY1AAVst3XrMZ9xXUFvxVK-JsTHU4cIwWqz8Tn6wAAAAHNixNAAA")
+STRING3 = getenv("BQCFKdAAUeGC7Mo8Jw7FcSYanIY92UyPl7fjS6yFCz-KEohqt5AjP-AQWkBbTNwOaCYeudgWTKwe1l8tJTiYhEaWF_krFZBCoCeC-dYpyhJBpfWwc7pBSoZfY9Lp1tpUFxCZEs0oJG2DD4HCKyr2cVjixG3tfD80DgpDj2KgrL5yGxk0-FwOSfi3sBVOa2y7QgkYhSlakVwmf64rLO8HwJkCc3rrAVcDYRIiGCqctcmVUAkJqsOCgzMVNihu7v1RJfHuYOyybdzP1627iRTTfVhf7zzRDFC08cVNgfn1S4YKLXEe_hv2o2CY1AAVst3XrMZ9xXUFvxVK-JsTHU4cIwWqz8Tn6wAAAAHNixNAAA")
+STRING4 = getenv("BQCFKdAAUeGC7Mo8Jw7FcSYanIY92UyPl7fjS6yFCz-KEohqt5AjP-AQWkBbTNwOaCYeudgWTKwe1l8tJTiYhEaWF_krFZBCoCeC-dYpyhJBpfWwc7pBSoZfY9Lp1tpUFxCZEs0oJG2DD4HCKyr2cVjixG3tfD80DgpDj2KgrL5yGxk0-FwOSfi3sBVOa2y7QgkYhSlakVwmf64rLO8HwJkCc3rrAVcDYRIiGCqctcmVUAkJqsOCgzMVNihu7v1RJfHuYOyybdzP1627iRTTfVhf7zzRDFC08cVNgfn1S4YKLXEe_hv2o2CY1AAVst3XrMZ9xXUFvxVK-JsTHU4cIwWqz8Tn6wAAAAHNixNAAA")
+STRING5 = getenv("BQCFKdAAUeGC7Mo8Jw7FcSYanIY92UyPl7fjS6yFCz-KEohqt5AjP-AQWkBbTNwOaCYeudgWTKwe1l8tJTiYhEaWF_krFZBCoCeC-dYpyhJBpfWwc7pBSoZfY9Lp1tpUFxCZEs0oJG2DD4HCKyr2cVjixG3tfD80DgpDj2KgrL5yGxk0-FwOSfi3sBVOa2y7QgkYhSlakVwmf64rLO8HwJkCc3rrAVcDYRIiGCqctcmVUAkJqsOCgzMVNihu7v1RJfHuYOyybdzP1627iRTTfVhf7zzRDFC08cVNgfn1S4YKLXEe_hv2o2CY1AAVst3XrMZ9xXUFvxVK-JsTHU4cIwWqz8Tn6wAAAAHNixNAAA")
 
 
 BANNED_USERS = filters.user()
